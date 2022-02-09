@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://nated0g.github.io/sitemap.xml
