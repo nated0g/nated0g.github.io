@@ -9,7 +9,17 @@
       <link>https://nated0g.github.io/camping-photo-me.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Feb 2022 11:45:30 -0800</lastBuildDate><atom:link href="https://nated0g.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Feb 2022 21:06:37 -0800</lastBuildDate><atom:link href="https://nated0g.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim &#43; live-server</title>
+      <link>https://nated0g.github.io/posts/live-server-vim/</link>
+      <pubDate>Fri, 11 Feb 2022 21:06:37 -0800</pubDate>
+      
+      <guid>https://nated0g.github.io/posts/live-server-vim/</guid>
+      <description>I recently switched back to using vim as my full time editor after using VS Code for a few years. I always did like Vim (I used an extension in VS Code to get vim keybindings), but I felt like I was missing a few productivity features, and wasn&amp;rsquo;t willing to put the time into setting Vim up properly. Now I see that it is definitely worth the effort.
+One thing I missed from VS Code was the live-reload extension, which is indespensible when doing front-end development.</description>
+    </item>
+    
     <item>
       <title>Teach a child to program</title>
       <link>https://nated0g.github.io/posts/teach-a-child/</link>
