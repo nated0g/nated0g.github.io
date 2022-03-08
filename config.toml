@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://www.nateusher.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'NateUsher.com'
 theme = "readonly"
 [markup]
     [markup.goldmark]
