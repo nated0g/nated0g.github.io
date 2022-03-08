@@ -1,0 +1,39 @@
+
+{{ define "main" }}
+{{- partial "about.html" . -}}
+{{- partial "skills.html" . -}}
+<!-- Three -->
+<section id="projects">
+  <div class="container">
+    <h3>Projects</h3>
+    <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
+      Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+    <div class="features">
+      {{ range (where .Site.RegularPages "Section" "projects").ByPublishDate.Reverse }}
+      {{ $.Scratch.Add "i" 1 }}
+      {{ $i := $.Scratch.Get "i" }}
+      <article>
+        {{ if modBool $i 2 }}
+        <div class="inner">
+          <a href="{{ .RelPermalink }}">
+          <h4>{{ .Title }}</h4>
+          </a>
+          {{ .Summary }}
+        </div>
+        <a href="{{ .RelPermalink }}" class="image"><img style="float:left" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" /></a>
+        {{ else }}
+        <a href="{{ .RelPermalink }}" class="image"><img style="float:right" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" /></a>
+        <div class="inner">
+          <a href="{{ .RelPermalink }}">
+          <h4>{{ .Title }}</h4>
+          </a>
+          {{ .Summary }}
+        </div>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{- partial "contact.html" . -}}
+{{ end }}
