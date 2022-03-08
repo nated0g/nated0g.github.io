@@ -1,4 +1,4 @@
-baseURL = 'http://www.nateusher.com'
+baseURL = 'https://nated0g.github.io'
 languageCode = 'en-us'
 title = 'NateUsher.com'
 theme = "readonly"
