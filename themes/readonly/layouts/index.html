@@ -6,15 +6,14 @@
 <section id="projects">
   <div class="container">
     <h3>Projects</h3>
-    <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-      Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+    <p>A list of past projects.  This includes freelance clients, open source contributions, and personal projects.  They are listed in chronological order, with the most recent projects at the top.</p>
     <div class="features">
       {{ range (where .Site.RegularPages "Section" "projects").ByPublishDate.Reverse }}
       {{ $.Scratch.Add "i" 1 }}
       {{ $i := $.Scratch.Get "i" }}
       <article>
         {{ if modBool $i 2 }}
-        <div class="inner">
+        <div class="inner" style="clear:both">
           <a href="{{ .RelPermalink }}">
           <h4>{{ .Title }}</h4>
           </a>
@@ -23,7 +22,7 @@
         <a href="{{ .RelPermalink }}" class="image"><img style="float:left" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" /></a>
         {{ else }}
         <a href="{{ .RelPermalink }}" class="image"><img style="float:right" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" /></a>
-        <div class="inner">
+        <div class="inner" style="clear:both">
           <a href="{{ .RelPermalink }}">
           <h4>{{ .Title }}</h4>
           </a>
