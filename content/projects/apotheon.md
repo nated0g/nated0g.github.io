@@ -6,5 +6,3 @@ image: apotheon.jpg
 tags: ["Web Development"]
 ---
 This is a website I built for the release of Apotheon, a 2D platform action-RPG by indie game studio [Alientrap Games](https://www.alientrap.com).
-<!--more-->
-Apotheon has a very striking visual style, and their launch website needed to capture that.

@@ -14,18 +14,14 @@
       <article>
         {{ if modBool $i 2 }}
         <div class="inner" style="clear:both">
-          <a href="{{ .RelPermalink }}">
           <h4>{{ .Title }}</h4>
-          </a>
           {{ .Summary }}
         </div>
-        <a href="{{ .RelPermalink }}" class="image"><img style="float:left" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" /></a>
+        <img style="float:left" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" />
         {{ else }}
-        <a href="{{ .RelPermalink }}" class="image"><img style="float:right" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" /></a>
+        <img style="float:right" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" />
         <div class="inner" style="clear:both">
-          <a href="{{ .RelPermalink }}">
           <h4>{{ .Title }}</h4>
-          </a>
           {{ .Summary }}
         </div>
         {{ end }}
