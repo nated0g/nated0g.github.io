@@ -1,5 +1,5 @@
 ---
-title: "openGRO v1.0"
+title: "Canopy Mate Test & Commissioning Jig"
 date: 2013-12-02T00:00:00-08:00
 draft: false
 image: cm-testjig.jpg
