@@ -17,9 +17,13 @@
           <h4>{{ .Title }}</h4>
           {{ .Summary }}
         </div>
+        <div class="image">
         <img style="float:left" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" />
+        </div>
         {{ else }}
+        <div class="image">
         <img style="float:right" src="{{ .RelPermalink }}{{ .Params.image }}" alt="" />
+        </div>
         <div class="inner" style="clear:both">
           <h4>{{ .Title }}</h4>
           {{ .Summary }}

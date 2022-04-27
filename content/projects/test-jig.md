@@ -6,7 +6,7 @@ image: cm-testjig.jpg
 tags: ["Hardware", "Firmware", "CAD"]
 ---
 Testing and commissioning device for Canopy Mate control hardware.
-<!--more-->
+
 Canopy Mate is an automated cannabis grow tent.  I designed the PCB for it, and 
 collaborated on the firmware and app development.
 
