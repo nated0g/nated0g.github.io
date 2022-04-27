@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no"><link rel=stylesheet href=/css/main.css><title>NateUsher.com | openGRO v1.0</title></head><body><section id=header><header><span class="image avatar"><img src=/images/avatar.jpg alt></span><h1 id=logo><a href=#>Nate Usher</a></h1><p>Software Developer / Maker</p></header><nav id=nav><ul><li><a href=#about class=active>About</a></li><li><a href=#skills>Things I Can Do</a></li><li><a href=#projects>Projects</a></li><li><a href=#contact>Contact Me</a></li></ul></nav><footer><ul class=icons><li><a href=https://github.com/nated0g class="icon brands fa-github"><span class=label>Github</span></a></li><li><a href=https://twitter.com/nate_usher class="icon brands fa-twitter"><span class=label>Twitter</span></a></li><li><a href=https://www.linkedin.com/in/nate-usher-a44095231/ class="icon brands fa-linkedin"><span class=label>Linkedin</span></a></li><li><a href=mailto:n.usher87@gmail.com class="icon solid fa-envelope"><span class=label>Email</span></a></li></ul></footer></section><div id=wrapper><div id=main><section><div class="image main" data-position=center><img src=/images/science-world.jpg alt></div></section><section id=blog><div class=container><h3>openGRO v1.0</h3><p>Testing and commissioning device for Canopy Mate control hardware.</p><p>Canopy Mate is an automated cannabis grow tent. I designed the PCB for it, and
+collaborated on the firmware and app development.</p><p>My favourite part of that project though, was this test-jig I made. I designed
+and 3d printed the housing, which includes an array of pogo-pins that align
+with test pads I designed in to the PCB. The pogo pins connect to
+opto-isolated inputs on a Raspberry Pi 4 which runs the testing software.</p><p>I wrote the testing software in Python, with a Tkinter GUI. It first flashes a
+test firmware onto the device, which communicates with the test-jig over UART.
+All inputs and outputs are tested, and after passing, production firmware is
+flashed to the device. The device is also commissioned with Google Cloud IoT,
+and unique credentials are generated for the AP for initial device setup.</p><p>All details of the test are stored in a database, and a pair of labels including
+the device serial number, SSID and credentials are printed via a label printer
+connected to the Pi.</p><p>Overall the test-jig massively increased production efficiency, and reduced
+change for human error.</p></div></section></div><section id=footer><div class=container><ul class=copyright><li>&copy; Nate Usher. All rights reserved.</li></ul></div></section></div><script src=/js/jquery.min.js></script>
+<script src=/js/jquery.scrollex.min.js></script>
+<script src=/js/jquery.scrolly.min.js></script>
+<script src=/js/browser.min.js></script>
+<script src=/js/breakpoints.min.js></script>
+<script src=/js/util.js></script>
+<script src=/js/main.js></script></body></html>
