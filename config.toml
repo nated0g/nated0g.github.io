@@ -1,8 +1,70 @@
-baseURL = 'https://nated0g.github.io'
-languageCode = 'en-us'
-title = 'NateUsher.com'
-theme = "readonly"
-[markup]
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe = true
+# Zola configuration for travel & tech photo blog
+base_url = "https://nated0g.github.io"
+title = "nated0g"
+description = "A travel and tech blog with photographs"
+author = "nated0g"
+theme = "tabi"
+
+# Build settings
+generate_feeds = true
+compile_sass = true
+minify_html = true
+build_search_index = true
+default_language = "en"
+
+taxonomies = [{name = "tags", feed = true}]
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+smart_punctuation = true
+bottom_footnotes = true
+
+[extra]
+# Theme settings
+theme_switcher = true
+default_theme = ""
+
+# Use a nice color scheme - "teal" is default, other options: blue, lavender, mint, red, sakura, monochrome, indigo_ingot
+skin = "teal"
+
+# Show reading time and date on posts
+show_reading_time = true
+show_date = true
+show_author = false
+
+# Enable code copy button
+copy_button = true
+
+# Navigation menu
+menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "archive", url = "archive", trailing_slash = true },
+    { name = "tags", url = "tags", trailing_slash = true },
+]
+
+# Show RSS feed icon
+feed_icon = true
+full_content_in_feed = false
+
+# Date format
+long_date_format = "%B %d, %Y"
+short_date_format = "%b %d, %Y"
+
+# Allow images from anywhere (for photos)
+allowed_domains = [
+    { directive = "font-src", domains = ["'self'", "data:"] },
+    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
+    { directive = "media-src", domains = ["'self'"] },
+    { directive = "script-src", domains = ["'self'"] },
+    { directive = "style-src", domains = ["'self'"] },
+    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
+]
+enable_csp = true
