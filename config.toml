@@ -1,5 +1,5 @@
 # Zola configuration for travel & tech photo blog
-base_url = "https://nated0g.github.io"
+base_url = "https://nateusher.com"
 title = "nated0g"
 description = "A travel and tech blog with photographs"
 author = "nated0g"
