@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="https://nated0g.github.io/sitemap_style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="https://nateusher.com/sitemap_style.xsl" type="text/xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://nated0g.github.io/</loc>
+        <loc>https://nateusher.com/</loc>
     </url>
     <url>
-        <loc>https://nated0g.github.io/archive/</loc>
+        <loc>https://nateusher.com/archive/</loc>
     </url>
     <url>
-        <loc>https://nated0g.github.io/blog/</loc>
+        <loc>https://nateusher.com/blog/</loc>
     </url>
     <url>
-        <loc>https://nated0g.github.io/tags/</loc>
+        <loc>https://nateusher.com/tags/</loc>
     </url>
 </urlset>

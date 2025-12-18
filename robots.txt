@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://nated0g.github.io/sitemap.xml
+Sitemap: https://nateusher.com/sitemap.xml
