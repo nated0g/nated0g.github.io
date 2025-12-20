@@ -1,7 +1,7 @@
-——
+---
 title: teamLab Botanical Garden Osaka
 date: 2025-12-16
-—-
+---
 
 ![](teamlab-01.jpeg)
 
