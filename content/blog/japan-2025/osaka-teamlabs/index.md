@@ -15,6 +15,4 @@ This was right up my alley, featuring all sorts of interactive LED lights synchr
 
 The pièce de résistance was this crazy inflated tube thing — I’ve never seen anything like it. 
 
-<video width=“100%” controls playsinline>
-  <source src=“teamlab.mp4” type=“video/mp4”>
-</video>
+{{ youtube(id=“funfShNBPD8”) }}
